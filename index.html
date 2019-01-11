@@ -32,8 +32,8 @@
 
    <!-- favicons
 	================================================== -->
-	<link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
-	<link rel="icon" href="images/logo1.png" type="image/x-icon">
+	<link rel="shortcut icon" href="images/delta_logo.png" type="image/x-icon">
+	<link rel="icon" href="images/delta_logo.png" type="image/x-icon">
 
 </head>
 
@@ -69,14 +69,11 @@
 
 			<ul class="header-social-list">
 	         <li>
-	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
-	         </li>
-	         <li>
-	         	<a href="#"><i class="fa fa-twitter"></i></a>
-	         </li>
-	         <li>
-	         	<a href="#"><i class="fa fa-instagram"></i></a>
-	         </li>    
+	         	<a href="http://www.instagram.com/deltatactical_security"><i class="fa fa-instagram"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-google-plus"></i></a>
+				</li>    
 	      </ul>		
 
 		</nav>  <!-- end #menu-nav-wrap -->
@@ -107,7 +104,7 @@
 				  				</a>
 							  </div>
 							  <div class="container logo">
-									<img class="logo" src="images/logo1.png">
+									<img class="logo" src="images/delta_logo_head.png">
 							  </div>							
 
 			  		</div> <!-- end col-twelve --> 
@@ -130,9 +127,25 @@
 
 				<div class="intro">
 					<h3 class="animate-this">About Us</h3>
-	   			<p class="lead animate-this"><span>Delta Tactical Securities</span> Based in Crosby and committed to Always be There for you.</p>	
+					<p class="lead animate-this"><span>Delta Tactical Securities</span></p>
+					<p class="lead animate-this">Your Safety- Our Responsibility</p>
+					<h5 class="lead animate-this"><u>Background</u></h5>
+					<p class="lead animate-this">The company was started by 3 friends who served and protected the community for 20 years by forming The Crosby Neighbourhood Watch.
+						They later realised that the community needed a security company with greater power as the securities in the area were based too far to respond and they had request from many businesses
+					for guarding and alarm monitoring.They formed Delta Tactical Securities(PTY) Ltd in 2015. </p>
 				</div>   
-
+				<div class="portfolio">
+						<h5 class="lead animate-this"><u>Strategy & Vision</u></h5>
+						<p class="lead animate-this">
+							Our Vision is to capture a personalised market for security
+						</p>
+						<p class="lead animate-this">
+							Our mission is to make the area we protect a safe haven for the clients
+						</p>
+						<p class="lead animate-this">
+							Our values are to deliver what we promise 
+						</p>
+				</div>
    		</div> <!-- end col-full  -->
    	</div> <!-- end about-wrap  -->
 
@@ -206,7 +219,7 @@
 							<li><b>Debonairs/Steers Mayfair</b></li><br>
 							<li><b>Downtown Shopping Mall</b></li><br>
 							<li><b>Equity Management</b></li><br>
-							<li><b>Garden Medical</b></li><br>
+							<li><b>Garden City Medical Meus</b></li><br>
 							<li><b>Generations Film Studio</b></li><br>
 							<li><b>Hesperus Primary School</b></li><br>
 							<li><b>Hugenoot Primary School</b></li><br>
@@ -328,52 +341,34 @@
    			<h5>Send Us A Message</h5>
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post">     			
+            <form name="contactForm" id="contactForm" method="post" action="contact.php">     			
 
                <div class="form-field">
- 					   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+ 					   <input name="name" type="text" id="name" placeholder="Name" value="" minlength="2" required="">
                </div>
 
                <div class="row">
                  	<div class="col-six tab-full">
                  		<div class="form-field">
-                 			<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+                 			<input name="email" type="email" id="email" placeholder="Email" value="" required="">
                  		</div>		      			   
 		            </div>
 	            	<div class="col-six tab-full">	            
 	            		<div class="form-field">
-	            			<input name="contactSubject" type="text" id="contactPhone" placeholder="Phone Number" value="">
+	            			<input name="phone" type="text" id="phone" placeholder="Phone Number" value="">
 	                  </div>		     				   
 		            </div>
                </div>
                                          
                <div class="form-field">
-	              	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	              	<textarea name="message" id="message" placeholder="message" rows="10" cols="50" required=""></textarea>
 	            </div> 
 
                <div class="form-field">
-                  <button class="submitform">Submit</button>
-
-                  <div id="submit-loader">
-                     <div class="text-loader">Sending...</div>                             
-       			      <div class="s-loader">
-							  	<div class="bounce1"></div>
-							  	<div class="bounce2"></div>
-							  	<div class="bounce3"></div>
-							</div>
-						</div>
+                  <button type="submit" class="form-control submit">Submit</button>
                </div>
 
       		</form> <!-- end form -->
-
-            <!-- contact-warning -->
-            <div id="message-warning"></div> 
-
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
-
          </div> <!-- end col-seven --> 
 
          <div class="col-four tab-full contact-info end animate-this">
@@ -417,7 +412,7 @@
 		<div class="container">
 			<div class="row">
 				 <div class="col-sm-3">
-					  <img src="images/logo1.png">
+					  <img src="images/delta_logo.png">
 				 </div>
 				 <div class="col-sm-2">
 					  <h5>Get started</h5>
@@ -436,9 +431,10 @@
 				 </div>
 				 <div class="col-sm-3">
 					  <div class="social-networks">
-							<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+							<!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+							<a href="#" class="facebook"><i class="fa fa-facebook"></i></a> -->
 							<a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+							<a href="http://www.instagram.com/deltatactical_security" class="instagram-l"><i class="fa fa-instagram"></i></a>
 					  </div>
 				 </div>
 			</div>
@@ -465,7 +461,7 @@
    <script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 
